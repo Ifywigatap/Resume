@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.left {
+  background-color: #003366;
+  color: white;
+  padding: 30px;
+  width: 35%;
+}
+.left img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.left h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.left h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ccc;
+  margin-top: 0;
+}
+.left p,
+.left a {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.section h3 {
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.right {
+  padding: 30px;
+  width: 65%;
+}
+.right h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+.right .job-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+.right .company {
+  font-weight: bold;
+  color: #666;
+  margin-top: 10px;
+}
+.right ul {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.right ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.skill-list,
+.lang-list {
+  list-style: none;
+  padding: 0;
+}
+.lang-list li span {
+  color: #ccc;
+}
+.awards p {
+  margin: 5px 0;
+}
